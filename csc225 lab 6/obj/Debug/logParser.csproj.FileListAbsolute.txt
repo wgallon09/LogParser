@@ -1,0 +1,5 @@
+D:\Downloads\Gallon CSC225 Projects and Labs\Gallon CSC225 Projects and Labs\Gallon csc225 lab 6\csc225 lab 6\csc225 lab 6\bin\Debug\csc225 lab 6.exe
+D:\Downloads\Gallon CSC225 Projects and Labs\Gallon CSC225 Projects and Labs\Gallon csc225 lab 6\csc225 lab 6\csc225 lab 6\bin\Debug\csc225 lab 6.pdb
+D:\Downloads\Gallon CSC225 Projects and Labs\Gallon CSC225 Projects and Labs\Gallon csc225 lab 6\csc225 lab 6\csc225 lab 6\obj\Debug\logParser.csprojResolveAssemblyReference.cache
+D:\Downloads\Gallon CSC225 Projects and Labs\Gallon CSC225 Projects and Labs\Gallon csc225 lab 6\csc225 lab 6\csc225 lab 6\obj\Debug\csc225 lab 6.exe
+D:\Downloads\Gallon CSC225 Projects and Labs\Gallon CSC225 Projects and Labs\Gallon csc225 lab 6\csc225 lab 6\csc225 lab 6\obj\Debug\csc225 lab 6.pdb

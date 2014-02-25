@@ -1,0 +1,343 @@
+Oct 10 08:27:33 moe sshd[13340]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=dynamic-acs-24-154-213-70.zoominternet.net  user=rlindema
+Oct 10 08:27:33 moe sshd[13340]: pam_krb5(sshd:auth): user rlindema authenticated as rlindema@BW.EDU
+Oct 10 08:27:33 moe sshd[13340]: Accepted password for rlindema from 24.154.213.70 port 33612 ssh2
+Oct 10 08:27:33 moe sshd[13340]: pam_unix(sshd:session): session opened for user rlindema by (uid=0)
+Oct 10 08:27:33 moe sshd[13340]: pam_motd(sshd:session): unknown option: issue=/etc/issue
+Oct 10 11:45:48 moe sshd[14028]: Invalid user test from 219.255.132.105
+Oct 10 11:45:48 moe sshd[14028]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 11:45:48 moe sshd[14028]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=219.255.132.105 
+Oct 10 11:45:48 moe sshd[14028]: pam_krb5(sshd:auth): authentication failure; logname=test uid=0 euid=0 tty=ssh ruser= rhost=219.255.132.105
+Oct 10 11:45:50 moe sshd[14028]: Failed password for invalid user test from 219.255.132.105 port 41113 ssh2
+Oct 10 11:45:52 moe sshd[14031]: Invalid user test from 219.255.132.105
+Oct 10 11:45:52 moe sshd[14031]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 11:45:52 moe sshd[14031]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=219.255.132.105 
+Oct 10 11:45:52 moe sshd[14031]: pam_krb5(sshd:auth): authentication failure; logname=test uid=0 euid=0 tty=ssh ruser= rhost=219.255.132.105
+Oct 10 11:45:55 moe sshd[14031]: Failed password for invalid user test from 219.255.132.105 port 41630 ssh2
+Oct 10 11:45:58 moe sshd[14033]: Invalid user test from 219.255.132.105
+Oct 10 11:45:58 moe sshd[14033]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 11:45:58 moe sshd[14033]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=219.255.132.105 
+Oct 10 11:45:58 moe sshd[14033]: pam_krb5(sshd:auth): authentication failure; logname=test uid=0 euid=0 tty=ssh ruser= rhost=219.255.132.105
+Oct 10 11:46:00 moe sshd[14033]: Failed password for invalid user test from 219.255.132.105 port 42163 ssh2
+Oct 10 11:46:03 moe sshd[14035]: Invalid user test from 219.255.132.105
+Oct 10 11:46:03 moe sshd[14035]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 11:46:03 moe sshd[14035]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=219.255.132.105 
+Oct 10 11:46:03 moe sshd[14035]: pam_krb5(sshd:auth): authentication failure; logname=test uid=0 euid=0 tty=ssh ruser= rhost=219.255.132.105
+Oct 10 11:46:05 moe sshd[14035]: Failed password for invalid user test from 219.255.132.105 port 42584 ssh2
+Oct 10 11:46:18 moe sshd[13340]: pam_unix(sshd:session): session closed for user rlindema
+Oct 10 12:07:49 moe sshd[14038]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156  user=root
+Oct 10 12:07:49 moe sshd[14038]: pam_krb5(sshd:auth): authentication failure; logname=root uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:07:51 moe sshd[14038]: Failed password for root from 204.13.3.156 port 48830 ssh2
+Oct 10 12:07:52 moe sshd[14041]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156  user=root
+Oct 10 12:07:52 moe sshd[14041]: pam_krb5(sshd:auth): authentication failure; logname=root uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:07:54 moe sshd[14041]: Failed password for root from 204.13.3.156 port 49241 ssh2
+Oct 10 12:07:54 moe sshd[14043]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156  user=root
+Oct 10 12:07:54 moe sshd[14043]: pam_krb5(sshd:auth): authentication failure; logname=root uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:07:55 moe sshd[14043]: Failed password for root from 204.13.3.156 port 49782 ssh2
+Oct 10 12:07:56 moe sshd[14045]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156  user=root
+Oct 10 12:07:56 moe sshd[14045]: pam_krb5(sshd:auth): authentication failure; logname=root uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:07:58 moe sshd[14045]: Failed password for root from 204.13.3.156 port 50133 ssh2
+Oct 10 12:07:58 moe sshd[14047]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156  user=root
+Oct 10 12:07:58 moe sshd[14047]: pam_krb5(sshd:auth): authentication failure; logname=root uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:08:00 moe sshd[14047]: Failed password for root from 204.13.3.156 port 50609 ssh2
+Oct 10 12:08:01 moe sshd[14049]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156  user=root
+Oct 10 12:08:01 moe sshd[14049]: pam_krb5(sshd:auth): authentication failure; logname=root uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:08:02 moe sshd[14049]: Failed password for root from 204.13.3.156 port 51248 ssh2
+Oct 10 12:08:03 moe sshd[14051]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156  user=root
+Oct 10 12:08:03 moe sshd[14051]: pam_krb5(sshd:auth): authentication failure; logname=root uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:08:05 moe sshd[14051]: Failed password for root from 204.13.3.156 port 51656 ssh2
+Oct 10 12:08:06 moe sshd[14053]: Invalid user test from 204.13.3.156
+Oct 10 12:08:06 moe sshd[14053]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:08:06 moe sshd[14053]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:08:06 moe sshd[14053]: pam_krb5(sshd:auth): authentication failure; logname=test uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:08:07 moe sshd[14053]: Failed password for invalid user test from 204.13.3.156 port 52274 ssh2
+Oct 10 12:08:08 moe sshd[14055]: Invalid user oracle from 204.13.3.156
+Oct 10 12:08:08 moe sshd[14055]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:08:08 moe sshd[14055]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:08:08 moe sshd[14055]: pam_krb5(sshd:auth): authentication failure; logname=oracle uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:08:09 moe sshd[14055]: Failed password for invalid user oracle from 204.13.3.156 port 52700 ssh2
+Oct 10 12:08:10 moe sshd[14057]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156  user=root
+Oct 10 12:08:10 moe sshd[14057]: pam_krb5(sshd:auth): authentication failure; logname=root uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:08:12 moe sshd[14057]: Failed password for root from 204.13.3.156 port 53168 ssh2
+Oct 10 12:08:13 moe sshd[14059]: Invalid user db2inst1 from 204.13.3.156
+Oct 10 12:08:13 moe sshd[14059]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:08:13 moe sshd[14059]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:08:13 moe sshd[14059]: pam_krb5(sshd:auth): authentication failure; logname=db2inst1 uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:08:15 moe sshd[14059]: Failed password for invalid user db2inst1 from 204.13.3.156 port 53943 ssh2
+Oct 10 12:08:15 moe sshd[14061]: Invalid user db2inst1 from 204.13.3.156
+Oct 10 12:08:15 moe sshd[14061]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:08:15 moe sshd[14061]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:08:15 moe sshd[14061]: pam_krb5(sshd:auth): authentication failure; logname=db2inst1 uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:08:17 moe sshd[14061]: Failed password for invalid user db2inst1 from 204.13.3.156 port 54414 ssh2
+Oct 10 12:08:18 moe sshd[14063]: Invalid user db2fenc1 from 204.13.3.156
+Oct 10 12:08:18 moe sshd[14063]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:08:18 moe sshd[14063]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:08:18 moe sshd[14063]: pam_krb5(sshd:auth): authentication failure; logname=db2fenc1 uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:08:19 moe sshd[14063]: Failed password for invalid user db2fenc1 from 204.13.3.156 port 54927 ssh2
+Oct 10 12:08:20 moe sshd[14065]: Invalid user db2fenc1 from 204.13.3.156
+Oct 10 12:08:20 moe sshd[14065]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:08:20 moe sshd[14065]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:08:20 moe sshd[14065]: pam_krb5(sshd:auth): authentication failure; logname=db2fenc1 uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:08:21 moe sshd[14065]: Failed password for invalid user db2fenc1 from 204.13.3.156 port 55431 ssh2
+Oct 10 12:08:22 moe sshd[14067]: Invalid user ts from 204.13.3.156
+Oct 10 12:08:22 moe sshd[14067]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:08:22 moe sshd[14067]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:08:22 moe sshd[14067]: pam_krb5(sshd:auth): authentication failure; logname=ts uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:08:24 moe sshd[14067]: Failed password for invalid user ts from 204.13.3.156 port 55854 ssh2
+Oct 10 12:08:25 moe sshd[14069]: Invalid user ts from 204.13.3.156
+Oct 10 12:08:25 moe sshd[14069]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:08:25 moe sshd[14069]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:08:25 moe sshd[14069]: pam_krb5(sshd:auth): authentication failure; logname=ts uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:08:26 moe sshd[14069]: Failed password for invalid user ts from 204.13.3.156 port 47907 ssh2
+Oct 10 12:08:27 moe sshd[14071]: Invalid user ts from 204.13.3.156
+Oct 10 12:08:27 moe sshd[14071]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:08:27 moe sshd[14071]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:08:27 moe sshd[14071]: pam_krb5(sshd:auth): authentication failure; logname=ts uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:08:29 moe sshd[14071]: Failed password for invalid user ts from 204.13.3.156 port 48328 ssh2
+Oct 10 12:08:29 moe sshd[14073]: Invalid user ts from 204.13.3.156
+Oct 10 12:08:29 moe sshd[14073]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:08:29 moe sshd[14073]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:08:29 moe sshd[14073]: pam_krb5(sshd:auth): authentication failure; logname=ts uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:08:31 moe sshd[14073]: Failed password for invalid user ts from 204.13.3.156 port 48803 ssh2
+Oct 10 12:08:31 moe sshd[14075]: Invalid user ts from 204.13.3.156
+Oct 10 12:08:31 moe sshd[14075]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:08:31 moe sshd[14075]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:08:32 moe sshd[14075]: pam_krb5(sshd:auth): authentication failure; logname=ts uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:08:33 moe sshd[14075]: Failed password for invalid user ts from 204.13.3.156 port 49289 ssh2
+Oct 10 12:08:33 moe sshd[14077]: Invalid user ts from 204.13.3.156
+Oct 10 12:08:33 moe sshd[14077]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:08:33 moe sshd[14077]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:08:33 moe sshd[14077]: pam_krb5(sshd:auth): authentication failure; logname=ts uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:08:36 moe sshd[14077]: Failed password for invalid user ts from 204.13.3.156 port 49688 ssh2
+Oct 10 12:08:36 moe sshd[14079]: Invalid user teamspeak from 204.13.3.156
+Oct 10 12:08:36 moe sshd[14079]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:08:36 moe sshd[14079]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:08:36 moe sshd[14079]: pam_krb5(sshd:auth): authentication failure; logname=teamspeak uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:08:38 moe sshd[14079]: Failed password for invalid user teamspeak from 204.13.3.156 port 50371 ssh2
+Oct 10 12:08:39 moe sshd[14081]: Invalid user tss from 204.13.3.156
+Oct 10 12:08:39 moe sshd[14081]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:08:39 moe sshd[14081]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:08:39 moe sshd[14081]: pam_krb5(sshd:auth): authentication failure; logname=tss uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:08:41 moe sshd[14081]: Failed password for invalid user tss from 204.13.3.156 port 51008 ssh2
+Oct 10 12:08:41 moe sshd[14083]: Invalid user tss from 204.13.3.156
+Oct 10 12:08:41 moe sshd[14083]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:08:41 moe sshd[14083]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:08:41 moe sshd[14083]: pam_krb5(sshd:auth): authentication failure; logname=tss uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:08:43 moe sshd[14083]: Failed password for invalid user tss from 204.13.3.156 port 51543 ssh2
+Oct 10 12:08:44 moe sshd[14085]: Invalid user ts2 from 204.13.3.156
+Oct 10 12:08:44 moe sshd[14085]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:08:44 moe sshd[14085]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:08:44 moe sshd[14085]: pam_krb5(sshd:auth): authentication failure; logname=ts2 uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:08:45 moe sshd[14085]: Failed password for invalid user ts2 from 204.13.3.156 port 51991 ssh2
+Oct 10 12:08:46 moe sshd[14087]: Invalid user ts1 from 204.13.3.156
+Oct 10 12:08:46 moe sshd[14087]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:08:46 moe sshd[14087]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:08:46 moe sshd[14087]: pam_krb5(sshd:auth): authentication failure; logname=ts1 uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:08:48 moe sshd[14087]: Failed password for invalid user ts1 from 204.13.3.156 port 52407 ssh2
+Oct 10 12:08:49 moe sshd[14089]: Invalid user ts2 from 204.13.3.156
+Oct 10 12:08:49 moe sshd[14089]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:08:49 moe sshd[14089]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:08:49 moe sshd[14089]: pam_krb5(sshd:auth): authentication failure; logname=ts2 uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:08:51 moe sshd[14089]: Failed password for invalid user ts2 from 204.13.3.156 port 52856 ssh2
+Oct 10 12:08:51 moe sshd[14091]: Invalid user ts1 from 204.13.3.156
+Oct 10 12:08:51 moe sshd[14091]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:08:51 moe sshd[14091]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:08:51 moe sshd[14091]: pam_krb5(sshd:auth): authentication failure; logname=ts1 uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:08:53 moe sshd[14091]: Failed password for invalid user ts1 from 204.13.3.156 port 53266 ssh2
+Oct 10 12:08:53 moe sshd[14093]: Invalid user hlds from 204.13.3.156
+Oct 10 12:08:53 moe sshd[14093]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:08:53 moe sshd[14093]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:08:53 moe sshd[14093]: pam_krb5(sshd:auth): authentication failure; logname=hlds uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:08:55 moe sshd[14093]: Failed password for invalid user hlds from 204.13.3.156 port 53734 ssh2
+Oct 10 12:08:55 moe sshd[14095]: Invalid user testftp from 204.13.3.156
+Oct 10 12:08:55 moe sshd[14095]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:08:55 moe sshd[14095]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:08:55 moe sshd[14095]: pam_krb5(sshd:auth): authentication failure; logname=testftp uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:08:57 moe sshd[14095]: Failed password for invalid user testftp from 204.13.3.156 port 54106 ssh2
+Oct 10 12:08:58 moe sshd[14097]: Invalid user testftp from 204.13.3.156
+Oct 10 12:08:58 moe sshd[14097]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:08:58 moe sshd[14097]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:08:58 moe sshd[14097]: pam_krb5(sshd:auth): authentication failure; logname=testftp uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:09:00 moe sshd[14097]: Failed password for invalid user testftp from 204.13.3.156 port 54459 ssh2
+Oct 10 12:09:00 moe sshd[14099]: Invalid user testftp from 204.13.3.156
+Oct 10 12:09:00 moe sshd[14099]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:09:00 moe sshd[14099]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:09:00 moe sshd[14099]: pam_krb5(sshd:auth): authentication failure; logname=testftp uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:09:02 moe sshd[14099]: Failed password for invalid user testftp from 204.13.3.156 port 54920 ssh2
+Oct 10 12:09:03 moe sshd[14108]: Invalid user testftp from 204.13.3.156
+Oct 10 12:09:03 moe sshd[14108]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:09:03 moe sshd[14108]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:09:03 moe sshd[14108]: pam_krb5(sshd:auth): authentication failure; logname=testftp uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:09:05 moe sshd[14108]: Failed password for invalid user testftp from 204.13.3.156 port 55382 ssh2
+Oct 10 12:09:05 moe sshd[14110]: Invalid user postgres from 204.13.3.156
+Oct 10 12:09:05 moe sshd[14110]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:09:05 moe sshd[14110]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:09:05 moe sshd[14110]: pam_krb5(sshd:auth): authentication failure; logname=postgres uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:09:07 moe sshd[14110]: Failed password for invalid user postgres from 204.13.3.156 port 55796 ssh2
+Oct 10 12:09:07 moe sshd[14112]: Invalid user postgres from 204.13.3.156
+Oct 10 12:09:07 moe sshd[14112]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:09:07 moe sshd[14112]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:09:07 moe sshd[14112]: pam_krb5(sshd:auth): authentication failure; logname=postgres uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:09:09 moe sshd[14112]: Failed password for invalid user postgres from 204.13.3.156 port 56151 ssh2
+Oct 10 12:09:09 moe sshd[14114]: Invalid user postgres from 204.13.3.156
+Oct 10 12:09:09 moe sshd[14114]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:09:09 moe sshd[14114]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:09:09 moe sshd[14114]: pam_krb5(sshd:auth): authentication failure; logname=postgres uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:09:11 moe sshd[14114]: Failed password for invalid user postgres from 204.13.3.156 port 56543 ssh2
+Oct 10 12:09:12 moe sshd[14116]: Invalid user postgres from 204.13.3.156
+Oct 10 12:09:12 moe sshd[14116]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:09:12 moe sshd[14116]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:09:12 moe sshd[14116]: pam_krb5(sshd:auth): authentication failure; logname=postgres uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:09:13 moe sshd[14116]: Failed password for invalid user postgres from 204.13.3.156 port 56996 ssh2
+Oct 10 12:09:14 moe sshd[14118]: Invalid user zabbix from 204.13.3.156
+Oct 10 12:09:14 moe sshd[14118]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:09:14 moe sshd[14118]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:09:14 moe sshd[14118]: pam_krb5(sshd:auth): authentication failure; logname=zabbix uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:09:16 moe sshd[14118]: Failed password for invalid user zabbix from 204.13.3.156 port 57415 ssh2
+Oct 10 12:09:16 moe sshd[14120]: Invalid user zabbix from 204.13.3.156
+Oct 10 12:09:16 moe sshd[14120]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:09:16 moe sshd[14120]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:09:16 moe sshd[14120]: pam_krb5(sshd:auth): authentication failure; logname=zabbix uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:09:18 moe sshd[14120]: Failed password for invalid user zabbix from 204.13.3.156 port 57782 ssh2
+Oct 10 12:09:19 moe sshd[14122]: Invalid user zabbix from 204.13.3.156
+Oct 10 12:09:19 moe sshd[14122]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:09:19 moe sshd[14122]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:09:19 moe sshd[14122]: pam_krb5(sshd:auth): authentication failure; logname=zabbix uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:09:20 moe sshd[14122]: Failed password for invalid user zabbix from 204.13.3.156 port 58234 ssh2
+Oct 10 12:09:21 moe sshd[14124]: Invalid user zabbix from 204.13.3.156
+Oct 10 12:09:21 moe sshd[14124]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:09:21 moe sshd[14124]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:09:21 moe sshd[14124]: pam_krb5(sshd:auth): authentication failure; logname=zabbix uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:09:23 moe sshd[14124]: Failed password for invalid user zabbix from 204.13.3.156 port 58608 ssh2
+Oct 10 12:09:23 moe sshd[14126]: Invalid user shoutcast from 204.13.3.156
+Oct 10 12:09:23 moe sshd[14126]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:09:23 moe sshd[14126]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:09:23 moe sshd[14126]: pam_krb5(sshd:auth): authentication failure; logname=shoutcast uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:09:25 moe sshd[14126]: Failed password for invalid user shoutcast from 204.13.3.156 port 59027 ssh2
+Oct 10 12:09:26 moe sshd[14128]: Invalid user shoutcast from 204.13.3.156
+Oct 10 12:09:26 moe sshd[14128]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:09:26 moe sshd[14128]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:09:26 moe sshd[14128]: pam_krb5(sshd:auth): authentication failure; logname=shoutcast uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:09:27 moe sshd[14128]: Failed password for invalid user shoutcast from 204.13.3.156 port 59430 ssh2
+Oct 10 12:09:28 moe sshd[14130]: Invalid user shoutcast from 204.13.3.156
+Oct 10 12:09:28 moe sshd[14130]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:09:28 moe sshd[14130]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:09:28 moe sshd[14130]: pam_krb5(sshd:auth): authentication failure; logname=shoutcast uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:09:30 moe sshd[14130]: Failed password for invalid user shoutcast from 204.13.3.156 port 59761 ssh2
+Oct 10 12:09:31 moe sshd[14132]: Invalid user shoutcast from 204.13.3.156
+Oct 10 12:09:31 moe sshd[14132]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:09:31 moe sshd[14132]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:09:31 moe sshd[14132]: pam_krb5(sshd:auth): authentication failure; logname=shoutcast uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:09:33 moe sshd[14132]: Failed password for invalid user shoutcast from 204.13.3.156 port 60204 ssh2
+Oct 10 12:09:33 moe sshd[14134]: Invalid user shoutcast from 204.13.3.156
+Oct 10 12:09:33 moe sshd[14134]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:09:33 moe sshd[14134]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:09:33 moe sshd[14134]: pam_krb5(sshd:auth): authentication failure; logname=shoutcast uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:09:35 moe sshd[14134]: Failed password for invalid user shoutcast from 204.13.3.156 port 60654 ssh2
+Oct 10 12:09:36 moe sshd[14136]: Invalid user ts2 from 204.13.3.156
+Oct 10 12:09:36 moe sshd[14136]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:09:36 moe sshd[14136]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:09:36 moe sshd[14136]: pam_krb5(sshd:auth): authentication failure; logname=ts2 uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:09:37 moe sshd[14136]: Failed password for invalid user ts2 from 204.13.3.156 port 32846 ssh2
+Oct 10 12:09:38 moe sshd[14138]: Invalid user testuser from 204.13.3.156
+Oct 10 12:09:38 moe sshd[14138]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:09:38 moe sshd[14138]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:09:38 moe sshd[14138]: pam_krb5(sshd:auth): authentication failure; logname=testuser uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:09:39 moe sshd[14138]: Failed password for invalid user testuser from 204.13.3.156 port 33199 ssh2
+Oct 10 12:09:40 moe sshd[14140]: Invalid user web0 from 204.13.3.156
+Oct 10 12:09:40 moe sshd[14140]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:09:40 moe sshd[14140]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:09:40 moe sshd[14140]: pam_krb5(sshd:auth): authentication failure; logname=web0 uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:09:42 moe sshd[14140]: Failed password for invalid user web0 from 204.13.3.156 port 33567 ssh2
+Oct 10 12:09:43 moe sshd[14142]: Invalid user svn from 204.13.3.156
+Oct 10 12:09:43 moe sshd[14142]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:09:43 moe sshd[14142]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:09:43 moe sshd[14142]: pam_krb5(sshd:auth): authentication failure; logname=svn uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:09:45 moe sshd[14142]: Failed password for invalid user svn from 204.13.3.156 port 34049 ssh2
+Oct 10 12:09:45 moe sshd[14144]: Invalid user svn from 204.13.3.156
+Oct 10 12:09:45 moe sshd[14144]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:09:45 moe sshd[14144]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:09:45 moe sshd[14144]: pam_krb5(sshd:auth): authentication failure; logname=svn uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:09:47 moe sshd[14144]: Failed password for invalid user svn from 204.13.3.156 port 34466 ssh2
+Oct 10 12:09:48 moe sshd[14146]: Invalid user svn from 204.13.3.156
+Oct 10 12:09:48 moe sshd[14146]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:09:48 moe sshd[14146]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:09:48 moe sshd[14146]: pam_krb5(sshd:auth): authentication failure; logname=svn uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:09:49 moe sshd[14146]: Failed password for invalid user svn from 204.13.3.156 port 34911 ssh2
+Oct 10 12:09:50 moe sshd[14148]: Invalid user svn from 204.13.3.156
+Oct 10 12:09:50 moe sshd[14148]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:09:50 moe sshd[14148]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:09:50 moe sshd[14148]: pam_krb5(sshd:auth): authentication failure; logname=svn uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:09:52 moe sshd[14148]: Failed password for invalid user svn from 204.13.3.156 port 35293 ssh2
+Oct 10 12:09:53 moe sshd[14150]: Invalid user nagios from 204.13.3.156
+Oct 10 12:09:53 moe sshd[14150]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:09:53 moe sshd[14150]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:09:53 moe sshd[14150]: pam_krb5(sshd:auth): authentication failure; logname=nagios uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:09:55 moe sshd[14150]: Failed password for invalid user nagios from 204.13.3.156 port 35773 ssh2
+Oct 10 12:09:55 moe sshd[14152]: Invalid user nagios from 204.13.3.156
+Oct 10 12:09:55 moe sshd[14152]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:09:55 moe sshd[14152]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:09:55 moe sshd[14152]: pam_krb5(sshd:auth): authentication failure; logname=nagios uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:09:57 moe sshd[14152]: Failed password for invalid user nagios from 204.13.3.156 port 36183 ssh2
+Oct 10 12:09:57 moe sshd[14154]: Invalid user nagios from 204.13.3.156
+Oct 10 12:09:57 moe sshd[14154]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:09:57 moe sshd[14154]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:09:57 moe sshd[14154]: pam_krb5(sshd:auth): authentication failure; logname=nagios uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:09:59 moe sshd[14154]: Failed password for invalid user nagios from 204.13.3.156 port 36595 ssh2
+Oct 10 12:10:00 moe sshd[14156]: Invalid user nagios from 204.13.3.156
+Oct 10 12:10:00 moe sshd[14156]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:10:00 moe sshd[14156]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:10:00 moe sshd[14156]: pam_krb5(sshd:auth): authentication failure; logname=nagios uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:10:01 moe sshd[14156]: Failed password for invalid user nagios from 204.13.3.156 port 37012 ssh2
+Oct 10 12:10:02 moe sshd[14158]: Invalid user informix from 204.13.3.156
+Oct 10 12:10:02 moe sshd[14158]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:10:02 moe sshd[14158]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:10:02 moe sshd[14158]: pam_krb5(sshd:auth): authentication failure; logname=informix uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:10:04 moe sshd[14158]: Failed password for invalid user informix from 204.13.3.156 port 37358 ssh2
+Oct 10 12:10:05 moe sshd[14160]: Invalid user PlcmSpIp from 204.13.3.156
+Oct 10 12:10:05 moe sshd[14160]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 12:10:05 moe sshd[14160]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156 
+Oct 10 12:10:05 moe sshd[14160]: pam_krb5(sshd:auth): authentication failure; logname=PlcmSpIp uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:10:07 moe sshd[14160]: Failed password for invalid user PlcmSpIp from 204.13.3.156 port 37832 ssh2
+Oct 10 12:10:07 moe sshd[14162]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156  user=mysql
+Oct 10 12:10:07 moe sshd[14162]: pam_krb5(sshd:auth): authentication failure; logname=mysql uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:10:09 moe sshd[14162]: Failed password for mysql from 204.13.3.156 port 38277 ssh2
+Oct 10 12:10:10 moe sshd[14164]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156  user=mysql
+Oct 10 12:10:10 moe sshd[14164]: pam_krb5(sshd:auth): authentication failure; logname=mysql uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:10:12 moe sshd[14164]: Failed password for mysql from 204.13.3.156 port 38656 ssh2
+Oct 10 12:10:13 moe sshd[14166]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156  user=mysql
+Oct 10 12:10:13 moe sshd[14166]: pam_krb5(sshd:auth): authentication failure; logname=mysql uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:10:15 moe sshd[14166]: Failed password for mysql from 204.13.3.156 port 39148 ssh2
+Oct 10 12:10:15 moe sshd[14168]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156  user=mysql
+Oct 10 12:10:15 moe sshd[14168]: pam_krb5(sshd:auth): authentication failure; logname=mysql uid=0 euid=0 tty=ssh ruser= rhost=204.13.3.156
+Oct 10 12:10:17 moe sshd[14168]: Failed password for mysql from 204.13.3.156 port 39671 ssh2
+Oct 10 16:35:02 moe sshd[14265]: reverse mapping checking getaddrinfo for student-wireless-148.27.bw.edu [206.21.148.27] failed - POSSIBLE BREAK-IN ATTEMPT!
+Oct 10 16:35:04 moe sshd[14265]: Accepted password for mraney from 206.21.148.27 port 64854 ssh2
+Oct 10 16:35:04 moe sshd[14265]: pam_unix(sshd:session): session opened for user mraney by (uid=0)
+Oct 10 16:35:04 moe sshd[14265]: pam_motd(sshd:session): unknown option: issue=/etc/issue
+Oct 10 16:35:12 moe sshd[14265]: pam_unix(sshd:session): session closed for user mraney
+Oct 10 16:35:49 moe sshd[14350]: reverse mapping checking getaddrinfo for student-wireless-148.27.bw.edu [206.21.148.27] failed - POSSIBLE BREAK-IN ATTEMPT!
+Oct 10 16:35:52 moe sshd[14350]: Accepted password for mraney from 206.21.148.27 port 64855 ssh2
+Oct 10 16:35:52 moe sshd[14350]: pam_unix(sshd:session): session opened for user mraney by (uid=0)
+Oct 10 16:35:52 moe sshd[14350]: pam_motd(sshd:session): unknown option: issue=/etc/issue
+Oct 10 16:35:58 moe sshd[14350]: pam_unix(sshd:session): session closed for user mraney
+Oct 10 16:36:47 moe sshd[14430]: reverse mapping checking getaddrinfo for student-wireless-148.27.bw.edu [206.21.148.27] failed - POSSIBLE BREAK-IN ATTEMPT!
+Oct 10 16:36:49 moe sshd[14430]: Accepted password for mraney from 206.21.148.27 port 64856 ssh2
+Oct 10 16:36:49 moe sshd[14430]: pam_unix(sshd:session): session opened for user mraney by (uid=0)
+Oct 10 16:36:49 moe sshd[14430]: pam_motd(sshd:session): unknown option: issue=/etc/issue
+Oct 10 16:56:08 moe sshd[14430]: pam_unix(sshd:session): session closed for user mraney
+Oct 10 17:02:11 moe sshd[14536]: reverse mapping checking getaddrinfo for student-wireless-148.27.bw.edu [206.21.148.27] failed - POSSIBLE BREAK-IN ATTEMPT!
+Oct 10 17:02:13 moe sshd[14536]: Accepted password for mraney from 206.21.148.27 port 49190 ssh2
+Oct 10 17:02:13 moe sshd[14536]: pam_unix(sshd:session): session opened for user mraney by (uid=0)
+Oct 10 17:02:13 moe sshd[14536]: pam_motd(sshd:session): unknown option: issue=/etc/issue
+Oct 10 19:56:39 moe sshd[14536]: pam_unix(sshd:session): session closed for user mraney
+Oct 10 20:15:40 moe sshd[16134]: Accepted password for bvincent from 24.101.211.48 port 49600 ssh2
+Oct 10 20:15:40 moe sshd[16134]: pam_unix(sshd:session): session opened for user bvincent by (uid=0)
+Oct 10 20:15:40 moe sshd[16134]: pam_motd(sshd:session): unknown option: issue=/etc/issue
+Oct 10 20:40:20 moe sshd[16134]: pam_unix(sshd:session): session closed for user bvincent
+Oct 10 20:42:48 moe sshd[16231]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=75-30-233-222.lightspeed.sgvloh.sbcglobal.net  user=mraney
+Oct 10 20:42:48 moe sshd[16231]: pam_krb5(sshd:auth): authentication failure; logname=mraney uid=0 euid=0 tty=ssh ruser= rhost=75-30-233-222.lightspeed.sgvloh.sbcglobal.net
+Oct 10 20:42:51 moe sshd[16231]: Failed password for mraney from 75.30.233.222 port 49876 ssh2
+Oct 10 20:42:55 moe sshd[16231]: Accepted password for mraney from 75.30.233.222 port 49876 ssh2
+Oct 10 20:42:55 moe sshd[16231]: pam_unix(sshd:session): session opened for user mraney by (uid=0)
+Oct 10 20:42:55 moe sshd[16231]: pam_motd(sshd:session): unknown option: issue=/etc/issue
+Oct 10 21:25:30 moe sshd[16231]: pam_unix(sshd:session): session closed for user mraney

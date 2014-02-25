@@ -1,0 +1,10 @@
+C:\Users\Billy\Documents\Visual Studio 2008\Projects\csc225 lab 6\csc225 lab 6\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Billy\Documents\Visual Studio 2008\Projects\csc225 lab 6\csc225 lab 6\bin\Debug\csc225 lab 6.exe
+C:\Users\Billy\Documents\Visual Studio 2008\Projects\csc225 lab 6\csc225 lab 6\bin\Debug\csc225 lab 6.pdb
+C:\Users\Billy\Documents\Visual Studio 2008\Projects\csc225 lab 6\csc225 lab 6\obj\Debug\csc225 lab 6.exe
+C:\Users\Billy\Documents\Visual Studio 2008\Projects\csc225 lab 6\csc225 lab 6\obj\Debug\csc225 lab 6.pdb
+D:\Downloads\Gallon CSC225 Projects and Labs\Gallon CSC225 Projects and Labs\Gallon csc225 lab 6\csc225 lab 6\csc225 lab 6\bin\Debug\csc225 lab 6.exe
+D:\Downloads\Gallon CSC225 Projects and Labs\Gallon CSC225 Projects and Labs\Gallon csc225 lab 6\csc225 lab 6\csc225 lab 6\bin\Debug\csc225 lab 6.pdb
+D:\Downloads\Gallon CSC225 Projects and Labs\Gallon CSC225 Projects and Labs\Gallon csc225 lab 6\csc225 lab 6\csc225 lab 6\obj\Debug\csc225 lab 6.exe
+D:\Downloads\Gallon CSC225 Projects and Labs\Gallon CSC225 Projects and Labs\Gallon csc225 lab 6\csc225 lab 6\csc225 lab 6\obj\Debug\csc225 lab 6.pdb
+D:\Downloads\Gallon CSC225 Projects and Labs\Gallon CSC225 Projects and Labs\Gallon csc225 lab 6\csc225 lab 6\csc225 lab 6\obj\Debug\csc225 lab 6.csprojResolveAssemblyReference.cache
